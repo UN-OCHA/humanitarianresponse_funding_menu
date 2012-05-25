@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HumanitarianResponse Funding Menu feature.
+ */
+
+include_once 'humanitarianresponse_funding_menu.features.inc';
