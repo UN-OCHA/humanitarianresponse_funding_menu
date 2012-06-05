@@ -20,9 +20,9 @@ function humanitarianresponse_funding_menu_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'taxonomy_menu_vocab_parent_uuid_funding';
-  $strongarm->value = 'funding';
-  $export['taxonomy_menu_vocab_parent_uuid_funding'] = $strongarm;
+  $strongarm->name = 'taxonomy_menu_vocab_parent_funding';
+  $strongarm->value = 'main-menu:funding';
+  $export['taxonomy_menu_vocab_parent_funding'] = $strongarm;
 
   return $export;
 }
