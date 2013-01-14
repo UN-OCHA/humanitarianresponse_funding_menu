@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ */
+ 
+/**
+ * Implements hook_install()
+ */
+function humanitarianresponse_funding_menu_install() {
+  $voc = taxonomy_vocabulary_machine_name_load('funding');
+  $vid = $voc->vid;
+  _taxonomy_menu_rebuild($vid);
+}
