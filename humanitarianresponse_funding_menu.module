@@ -11,10 +11,10 @@ include_once 'humanitarianresponse_funding_menu.features.inc';
  * Implements hook_feeds_after_import()
  */
 function humanitarianresponse_funding_menu_feeds_after_import(FeedsSource $source) {
-  if ($source->id == 'csv_funding') {
+  /*if ($source->id == 'csv_funding') {
     // Rebuild taxonomy menu
     $voc = taxonomy_vocabulary_machine_name_load('funding');
     $vid = $voc->vid;
     _taxonomy_menu_rebuild($vid);
-  }
+  }*/
 }
