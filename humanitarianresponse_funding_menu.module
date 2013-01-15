@@ -15,6 +15,6 @@ function humanitarianresponse_funding_menu_feeds_after_import(FeedsSource $sourc
     // Rebuild taxonomy menu
     $voc = taxonomy_vocabulary_machine_name_load('funding');
     $vid = $voc->vid;
-    _taxonomy_menu_rebuild($vid);
+    humanitarianresponse_core_taxonomy_menu_rebuild($vid);
   }
 }
